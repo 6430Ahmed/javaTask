@@ -2,13 +2,14 @@ import java.io.*;
 import java.util.Scanner;
 public class Sum{
     public static void main(String[] args){
-        Scanner n = new Scanner(System.in);
-        int num1,num2,sum;
-        System.out.print("Enter the first number:");
-        num1=n.nextInt();
-        System.out.print("Enter the second number:");
-        num2=n.nextInt();
-        sum=num1+num2;
-        System.out.println("sum is:" +sum);
+        int num1,num2;
+        int sum;
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter num1:");
+        num1=s.nextInt();
+        System.out.println("Enter num2:");
+        num2=s.nextInt();
+        sum=num1 + num2;
+        System.out.println("Sum of the digit number is:"+sum);
     }
 }
